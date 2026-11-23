@@ -1,0 +1,15 @@
+:root{
+    --brand: #2563eb;
+}
+h1,h2{
+color: var(--brand);
+}
+.course-card{
+    background-color: white;
+}
+[data-status="open"].course-card{
+    background-color: lightgreen;
+}
+[data-status="Closed"].course-card{
+    background-color: gray;
+}

@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="../style.css"> in courses we use ../ to look outside the folder that the file is in 
+<link rel="stylesheet" href="style.css"> because we are in the same folder we dont use ../
