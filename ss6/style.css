@@ -4,12 +4,24 @@
 h1,h2{
 color: var(--brand);
 }
-.course-card{
+/*.course-card{
     background-color: white;
-}
+}*/
 [data-status="open"].course-card{
     background-color: lightgreen;
 }
 [data-status="Closed"].course-card{
     background-color: gray;
+}
+/*#course-title { color: purple; }*/
+
+.title { color: green; }
+h1 { color: navy; }
+.course-card >p { color: red; }
+.title { color: orange; }
+a:hover{
+    color: saddlebrown;
+}
+a:focus-visible{
+    outline: solid blue 5px;
 }

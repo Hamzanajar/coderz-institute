@@ -1,2 +1,11 @@
 <link rel="stylesheet" href="../style.css"> in courses we use ../ to look outside the folder that the file is in 
 <link rel="stylesheet" href="style.css"> because we are in the same folder we dont use ../
+
+
+priority is always to id if there is no !important 
+
+if both equal priority we take the latest color 
+
+while using >p it uses every p inside the articale that is a child while .course-card p selects grandchildren also 
+
+when you use focus-visible you get an outline when hovering with tab 
